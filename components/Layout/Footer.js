@@ -8,7 +8,7 @@ export default function Footer(){
                         <h1 className="text-3xl font-bold">Webity</h1>
                     </a>
                     <p className="text-secondary">Webity &copy; 2025</p>
-                    <p className="text-secondary">Contact:<br/>matthewjwright07@gmail.com<br/>512-586-4786</p>
+                    <p className="text-secondary">Contact:<br/>info@webity.io<br/>512-586-4786</p>
                 </div>
                 <div className="flex flex-col gap-2 justify-self-center">
                     <h1 className="font-bold text-lg">Products</h1>
