@@ -1,0 +1,69 @@
+import Start from "@/components/Other/Start";
+import Pricing from "@/components/Pricing/Pricing";
+import Questions from "@/components/Other/Questions";
+
+export default function WebDevelopmentPage() {
+    return (
+        <>
+            <Pricing 
+                title="Web Development Plans" 
+                pricings={[
+                    {
+                        name: "Essential",
+                        price: 500,
+                        features: [
+                            "5-Page Static Website",
+                            "Responsive Design",
+                            "Basic SEO Setup",
+                            "Contact Form Integration",
+                            "1 Month Support"
+                        ],
+                        type: "standard"
+                    },
+                    {
+                        name: "Growth",
+                        price: 1500,
+                        features: [
+                            "10-Page Dynamic Website",
+                            "Responsive & Custom Design",
+                            "Advanced SEO Optimization",
+                            "CMS Integration",
+                            "3 Months Support"
+                        ],
+                        type: "popular"
+                    },
+                    {
+                        name: "Premium",
+                        price: 3000,
+                        features: [
+                            "Custom Web Application",
+                            "Fully Responsive Design",
+                            "E-commerce or Advanced Features",
+                            "SEO & Analytics Setup",
+                            "6 Months Support"
+                        ],
+                        type: "standard"
+                    }
+                ]}
+            />
+            <Questions 
+                title="Web Development FAQs" 
+                questions={[
+                    {
+                        question: "What does your web development service include?",
+                        answer: "We offer end-to-end web development, including custom design, coding, responsive layouts, SEO optimization, CMS integration, and post-launch support tailored to your needs."
+                    },
+                    {
+                        question: "How long does it take to develop a website?",
+                        answer: "It varies by project scope. A basic site takes 2-4 weeks, while complex sites or web apps can take 8-12 weeks. We’ll provide a timeline after discussing your requirements."
+                    },
+                    {
+                        question: "Can you redesign an existing website?",
+                        answer: "Yes! We can revamp your current site with a fresh design, improved functionality, and better performance, all while keeping your brand identity intact."
+                    }
+                ]}
+            />
+            <Start />
+        </>
+    );
+}
