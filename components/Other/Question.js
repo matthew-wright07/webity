@@ -14,7 +14,7 @@ export default function Question({question,answer}){
                 <img src="/downarrow.svg" className={`h-4 ${clicked?"rotate-180":null} transition duration-500`}/>
             </div>
             {clicked?
-            <div onClick={handleClick} className="w-full h-12 border border-white rounded-lg px-4 py-8 flex justify-between items-center hover:cursor-pointer">
+            <div onClick={handleClick} className="w-full border border-white rounded-lg p-4 flex justify-between items-center hover:cursor-pointer">
                 <h1>{answer}</h1>
             </div>
             :null}

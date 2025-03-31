@@ -1,6 +1,6 @@
 export default function Contact(){
     return (
-        <div className="px-32 py-12 flex justify-center">
+        <div className="px-8 lg:px-32 py-12 flex justify-center">
             <div className="flex flex-col justify-center w-2/3 border border-white rounded-lg p-10 gap-4">
                 <h1 className="text-2xl font-bold text-center">Contact</h1>
                 <div className="flex flex-col gap-2">

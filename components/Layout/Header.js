@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation"
 export default function Header(){
     const pathname = usePathname()
     return(
-        <div className="px-32 flex justify-between items-center h-32 py-12">
+        <div className="px-8 lg:px-32 flex justify-between items-center h-32 py-12">
         <a href="/" className="flex items-center justify-center gap-2">
         <img src="/webifylogo.svg" className="w-10"/>
         <h1 className="text-3xl font-bold">Webity</h1>

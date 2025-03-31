@@ -1,6 +1,6 @@
 export default function Start(){
     return (
-        <div className="px-32 py-12">
+        <div className="px-8 lg:px-32 py-12">
             <div className="flex flex-col py-8 border border-white rounded-lg items-center gap-4">
                 <div className="flex flex-col gap-2 text-center">
                     <h1 className="text-4xl font-bold">Ready To Get Started?</h1>
