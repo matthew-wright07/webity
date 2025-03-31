@@ -1,6 +1,7 @@
 import Header from "@/components/Layout/Header";
 import "./globals.css";
 import Footer from "@/components/Layout/Footer";
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata = {
   title: "Webity",
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
         <Header/>
         {children}
         <Footer/>
+        <Analytics/>
       </body>
     </html>
   );
