@@ -1,16 +1,20 @@
 "use client"
 
 import { usePathname } from "next/navigation"
+import Modal from "./Modal"
 
 export default function Header(){
     const pathname = usePathname()
     return(
-        <div className="px-8 lg:px-32 flex justify-between items-center h-32 py-12">
+        <div className="px-8 lg:px-32 flex justify-between items-center py-10">
+        <div className="lg:hidden">
+            <Modal/>
+        </div>
         <a href="/" className="flex items-center justify-center gap-2">
         <img src="/webifylogo.svg" className="w-10"/>
         <h1 className="text-3xl font-bold">Webity</h1>
         </a>
-        <ul className="flex gap-4 items-center justify-center">
+        <ul className="gap-4 items-center justify-center hidden lg:flex">
             <li><a href="/" className={`${pathname==="/"?"text-primary":null} hover:text-primary transition duration-500`}>Home</a></li>
             <li><a href="/products" className={`${pathname.startsWith("/products")?"text-primary":null} hover:text-primary transition duration-500`}>Products</a></li>
             <li><a href="/reviews" className={`${pathname.startsWith("/reviews")?"text-primary":null} hover:text-primary transition duration-500`}>Reviews</a></li>
