@@ -10,7 +10,7 @@ export default function MobileAppDevelopmentPage() {
                 pricings={[
                     {
                         name: "Basic",
-                        price: 1000,
+                        price: 250,
                         features: [
                             "Single Platform (iOS or Android)",
                             "Up to 5 Screens",
@@ -22,7 +22,7 @@ export default function MobileAppDevelopmentPage() {
                     },
                     {
                         name: "Standard",
-                        price: 2500,
+                        price: 500,
                         features: [
                             "Dual Platform (iOS & Android)",
                             "Up to 15 Screens",
@@ -34,7 +34,7 @@ export default function MobileAppDevelopmentPage() {
                     },
                     {
                         name: "Premium",
-                        price: 5000,
+                        price: 1000,
                         features: [
                             "Dual Platform (iOS & Android)",
                             "Unlimited Screens",

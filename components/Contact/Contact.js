@@ -4,6 +4,13 @@ export default function Contact(){
             <div className="flex flex-col justify-center w-2/3 border border-white rounded-lg p-10 gap-4">
                 <h1 className="text-2xl font-bold text-center">Contact</h1>
                 <div className="flex flex-col gap-2">
+                    <label htmlFor="to">To</label>
+                    <select name="product" id="product" className="border border-white rounded-lg p-4 hover:cursor-pointer">
+                        <option value="webdev" className="text-white bg-black">info@webity.io</option>
+                        <option value="uiux" className="text-white bg-black">512-586-4786</option>
+                    </select>
+                </div>
+                <div className="flex flex-col gap-2">
                     <label htmlFor="name">Name</label>
                     <input id="name" className="rounded-lg p-4 border border-white "/>
                 </div>
@@ -14,12 +21,12 @@ export default function Contact(){
                 <div className="flex flex-col gap-2">
                     <label htmlFor="product">Product</label>
                     <select name="product" id="product" className="border border-white rounded-lg p-4 hover:cursor-pointer">
-                        <option value="volvo" className="text-white bg-black">Web Development</option>
-                        <option value="saab" className="text-white bg-black">UI/UX Design</option>
-                        <option value="mercedes" className="text-white bg-black">Website Maintenance</option>
-                        <option value="audi" className="text-white bg-black">Hosting & Domain Services</option>
-                        <option value="mercedes" className="text-white bg-black">SEO & Digital Marketing</option>
-                        <option value="audi" className="text-white bg-black">Mobile App Development</option>
+                        <option value="webdev" className="text-white bg-black">Web Development</option>
+                        <option value="uiux" className="text-white bg-black">UI/UX Design</option>
+                        <option value="maintenance" className="text-white bg-black">Website Maintenance</option>
+                        <option value="hostingdomain" className="text-white bg-black">Hosting & Domain Services</option>
+                        <option value="seomarketing" className="text-white bg-black">SEO & Digital Marketing</option>
+                        <option value="mobileapp" className="text-white bg-black">Mobile App Development</option>
                     </select>
                 </div>
                 <div className="flex flex-col gap-2">

@@ -9,8 +9,8 @@ export default function SEOMarketingPage() {
                 title="SEO & Digital Marketing Plans" 
                 pricings={[
                     {
-                        name: "Starter",
-                        price: 200,
+                        name: "Basic",
+                        price: 250,
                         features: [
                             "Basic Keyword Research",
                             "On-Page SEO for 5 Pages",
@@ -21,7 +21,7 @@ export default function SEOMarketingPage() {
                         type: "standard"
                     },
                     {
-                        name: "Growth",
+                        name: "Standard",
                         price: 500,
                         features: [
                             "Advanced Keyword Strategy",

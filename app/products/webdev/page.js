@@ -9,8 +9,8 @@ export default function WebDevelopmentPage() {
                 title="Web Development Plans" 
                 pricings={[
                     {
-                        name: "Essential",
-                        price: 500,
+                        name: "Basic",
+                        price: 250,
                         features: [
                             "5-Page Static Website",
                             "Responsive Design",
@@ -21,8 +21,8 @@ export default function WebDevelopmentPage() {
                         type: "standard"
                     },
                     {
-                        name: "Growth",
-                        price: 1500,
+                        name: "Standard",
+                        price: 500,
                         features: [
                             "10-Page Dynamic Website",
                             "Responsive & Custom Design",
@@ -34,7 +34,7 @@ export default function WebDevelopmentPage() {
                     },
                     {
                         name: "Premium",
-                        price: 3000,
+                        price: 1000,
                         features: [
                             "Custom Web Application",
                             "Fully Responsive Design",

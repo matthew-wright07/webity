@@ -22,7 +22,7 @@ export default function MaintenancePage() {
                     },
                     {
                         name: "Standard",
-                        price: 150,
+                        price: 100,
                         features: [
                             "Weekly Updates",
                             "Enhanced Security & Backups",
@@ -33,8 +33,8 @@ export default function MaintenancePage() {
                         type: "popular"
                     },
                     {
-                        name: "Pro",
-                        price: 300,
+                        name: "Premium",
+                        price: 200,
                         features: [
                             "Daily Updates",
                             "Full Security Suite & Backups",

@@ -9,8 +9,8 @@ export default function UIDesignPage() {
                 title="UI/UX Design Plans" 
                 pricings={[
                     {
-                        name: "Starter",
-                        price: 300,
+                        name: "Basic",
+                        price: 50,
                         features: [
                             "Wireframes for 3 Screens",
                             "Basic UI Design",
@@ -21,8 +21,8 @@ export default function UIDesignPage() {
                         type: "standard"
                     },
                     {
-                        name: "Professional",
-                        price: 800,
+                        name: "Standard",
+                        price: 100,
                         features: [
                             "Wireframes for 10 Screens",
                             "Custom UI/UX Design",
@@ -33,8 +33,8 @@ export default function UIDesignPage() {
                         type: "popular"
                     },
                     {
-                        name: "Enterprise",
-                        price: 1500,
+                        name: "Premium",
+                        price: 200,
                         features: [
                             "Unlimited Screens",
                             "Full UI/UX Design System",

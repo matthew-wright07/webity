@@ -9,8 +9,8 @@ export default function HostingDomainPage() {
                 title="Hosting & Domain Plans" 
                 pricings={[
                     {
-                        name: "Starter",
-                        price: 5,
+                        name: "Basic",
+                        price: 50,
                         features: [
                             "1 Domain Registration",
                             "5GB SSD Storage",
@@ -21,8 +21,8 @@ export default function HostingDomainPage() {
                         type: "standard"
                     },
                     {
-                        name: "Professional",
-                        price: 15,
+                        name: "Standard",
+                        price: 100,
                         features: [
                             "3 Domain Registrations",
                             "25GB SSD Storage",
@@ -34,8 +34,8 @@ export default function HostingDomainPage() {
                         type: "popular"
                     },
                     {
-                        name: "Enterprise",
-                        price: 30,
+                        name: "Premium",
+                        price: 200,
                         features: [
                             "Unlimited Domains",
                             "100GB SSD Storage",
