@@ -11,17 +11,17 @@ export default function Products({title}){
                 <a href="/products/uiux" className="bg-primary rounded-lg px-4 py-8 text-center flex flex-col items-center gap-2 hover:bg-secondary transition duration-500">
                     <img src="/uiuxdesign.svg" className="w-10"/>
                     <h1 className="text-xl text-white font-bold">UI/UX Design</h1>
-                    <p>Design that doesn’t just look good—it works. We craft intuitive, user-friendly experiences that keep visitors engaged and drive conversions.</p>
+                    <p>Design that doesn’t just look good, it works. We craft intuitive, user-friendly experiences that keep visitors engaged and drive conversions.</p>
                 </a>
                 <a href="/products/maintenance" className="bg-primary rounded-lg px-4 py-8 text-center flex flex-col items-center gap-2 hover:bg-secondary transition duration-500">
                     <img src="/webmaintenance.svg" className="w-10"/>
                     <h1 className="text-xl text-white font-bold">Website Maintenance</h1>
-                    <p>Keep your website running smoothly with regular updates, security patches, and performance optimizations—so you can focus on what matters.</p>
+                    <p>Keep your website running smoothly with regular updates, security patches, and performance optimizations, so you can focus on what matters.</p>
                 </a>
                 <a href="/products/hostingdomain" className="bg-primary rounded-lg px-4 py-8 text-center flex flex-col items-center gap-2 hover:bg-secondary transition duration-500">
                     <img src="/hostingdomain.svg" className="w-10"/>
                     <h1 className="text-xl text-white font-bold">Hosting & Domain Services</h1>
-                    <p>Reliable hosting and domain management solutions to keep your website online, secure, and performing at its best—without the technical hassle.</p>
+                    <p>Reliable hosting and domain management solutions to keep your website online, secure, and performing at its best, without the technical hassle.</p>
                 </a>
                 <a href="/products/seomarketing" className="bg-primary rounded-lg px-4 py-8 text-center flex flex-col items-center gap-2 hover:bg-secondary transition duration-500">
                     <img src="/seodigital.svg" className="w-10"/>
