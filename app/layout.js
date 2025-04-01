@@ -7,7 +7,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 export const metadata = {
   title: "Webity",
   description: "Web Design Agency",
-  icons: "/webifylogo.svg",
+  icons: "/webitylogo.svg",
 };
 
 export default function RootLayout({ children }) {

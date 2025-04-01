@@ -4,7 +4,7 @@ export default function Footer(){
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
                 <div className="flex flex-col gap-4 lg:justify-self-start">
                     <a href="/" className="flex items-center gap-2">
-                        <img src="/webifylogo.svg" className="w-10"/>
+                        <img src="/webitylogo.svg" className="w-10"/>
                         <h1 className="text-3xl font-bold">Webity</h1>
                     </a>
                     <p className="text-secondary">Webity &copy; 2025</p>
