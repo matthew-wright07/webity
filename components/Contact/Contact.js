@@ -41,7 +41,7 @@ export default function Contact(){
                 <h1 className="text-2xl font-bold text-center">Contact</h1>
                 <div className="flex flex-col gap-2">
                     <label htmlFor="to">To</label>
-                    <select name="product" id="product" className="border border-white rounded-lg p-2 hover:cursor-pointer">
+                    <select name="product" id="product" className="border border-white rounded-lg p-3 hover:cursor-pointer">
                         <option value="webdev" className="text-white bg-black">info@webity.io</option>
                         <option value="uiux" className="text-white bg-black">512-586-4786</option>
                     </select>
@@ -56,7 +56,7 @@ export default function Contact(){
                 </div>
                 <div className="flex flex-col gap-2">
                     <label htmlFor="product">Product</label>
-                    <select onChange={handleProduct} value={product} name="product" id="product" className="border border-white rounded-lg p-2 hover:cursor-pointer">
+                    <select onChange={handleProduct} value={product} name="product" id="product" className="border border-white rounded-lg p-3 hover:cursor-pointer">
                         <option value="webdev" className="text-white bg-black">Web Development</option>
                         <option value="uiux" className="text-white bg-black">UI/UX Design</option>
                         <option value="maintenance" className="text-white bg-black">Website Maintenance</option>
