@@ -7,7 +7,7 @@ export async function POST(req){
     console.log(data)
     const email = await resend.emails.send({
         from: 'delivered@resend.dev',
-        to: "matthewjwright07@gmail.com",
+        to: "info@webity.io",
         subject: "New Client",
         text: `Name: ${data.name}\nEmail: ${data.email}\nProduct: ${data.product}\nMessage: ${data.message}`,
     });
