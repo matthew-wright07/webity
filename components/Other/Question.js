@@ -9,7 +9,7 @@ export default function Question({question,answer}){
     }
     return (
         <div className="flex flex-col gap-4">
-            <div onClick={handleClick} className={`w-full h-12 ${clicked?"bg-secondary":"bg-primary"} rounded-lg p-4 flex justify-between items-center hover:cursor-pointer hover:bg-secondary transition duration-500`}>
+            <div onClick={handleClick} className={`w-full ${clicked?"bg-secondary":"bg-primary"} rounded-lg p-4 flex justify-between items-center hover:cursor-pointer hover:bg-secondary transition duration-500`}>
                 <h1>{question}</h1>
                 <img src="/downarrow.svg" className={`h-4 ${clicked?"rotate-180":null} transition duration-500`}/>
             </div>
