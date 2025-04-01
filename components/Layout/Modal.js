@@ -16,7 +16,7 @@ export default function Modal(){
             <div className="px-8 py-10 flex justify-between items-center">
                 <img className="w-10 hover:cursor-pointer hover:scale-110 transition duration-500" src="/modalclose.svg" onClick={handleClick}/>
                 <a href="/" className="flex items-center justify-center gap-2">
-                <img src="/webifylogo.svg" className="w-10"/>
+                <img src="/webitylogo.svg" className="w-10"/>
                 <h1 className="text-3xl font-bold">Webity</h1>
                 </a>
                 <a href="/contact" className="w-24 h-10 bg-primary rounded-lg flex items-center justify-center hover:scale-110 transition duration-500">Contact</a>
