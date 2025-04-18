@@ -10,9 +10,9 @@ export default function Header(){
         <div className="lg:hidden">
             <Modal/>
         </div>
-        <a href="/" className="flex items-center justify-center gap-2">
-        <img src="/webitylogo.svg" className="w-10"/>
-        <h1 className="text-3xl font-bold">Webity</h1>
+        <a href="/" className="flex items-center justify-center gap-2 hover:scale-110 transition duration-500">
+            <img src="/webitylogo.svg" className="w-10"/>
+            <h1 className="text-3xl font-bold">Webity</h1>
         </a>
         <ul className="gap-4 items-center justify-center hidden lg:flex">
             <li><a href="/" className={`${pathname==="/"?"text-primary":null} hover:text-primary transition duration-500`}>Home</a></li>
