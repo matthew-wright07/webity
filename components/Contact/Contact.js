@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import Wrapper from "../Other/Wrapper"
 
 export default function Contact(){
     const [name,setName] = useState("")
@@ -36,7 +37,8 @@ export default function Contact(){
     }
 
     return (
-        <div className="px-8 lg:px-32 py-12 flex flex-col justify-center items-center gap-4">
+        <Wrapper>
+        <div className="flex flex-col justify-center items-center gap-4">
             <div className="flex flex-col justify-center w-full lg:w-3/4 border border-white rounded-lg p-10 gap-4">
                 <h1 className="text-2xl font-bold text-center">Contact</h1>
                 <div className="flex flex-col gap-2">
@@ -75,5 +77,6 @@ export default function Contact(){
             </div>
             {done?<p className="text-center">Thank you for submitting. We will get back to you as soon as possible!</p>:null}
         </div>
+        </Wrapper>
     )
 }

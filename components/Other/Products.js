@@ -1,6 +1,9 @@
+import Wrapper from "./Wrapper";
+
 export default function Products({title}){
     return(
-        <div className="py-12 px-8 lg:px-32 bg-black flex flex-col gap-4">
+        <Wrapper>
+        <div className="flex flex-col gap-4">
             <h1 className="text-2xl text-white font-bold">{title}</h1>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
                 <a href="/products/webdev" className="bg-primary rounded-lg px-4 py-8 text-center flex flex-col items-center gap-2 hover:bg-secondary transition duration-500">
@@ -35,5 +38,6 @@ export default function Products({title}){
                 </a>
             </div>
         </div>
+        </Wrapper>
     )
 }

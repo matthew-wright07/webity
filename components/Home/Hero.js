@@ -1,6 +1,9 @@
+import Wrapper from "../Other/Wrapper";
+
 export default function Hero(){
     return(
-        <div className="px-8 lg:px-32 py-12 flex justify-between">
+        <Wrapper>
+        <div className="flex justify-between">
             <div className="w-full xl:w-1/2 flex flex-col gap-8">
                 <h1 className="text-6xl font-bold">We are the world&#8217;s leading web service company.</h1>
                 <p className="text-xl text-secondary">At Webity, we specialize in creating stunning, user-friendly websites tailored to your needs. Whether you&#8217;re looking for an e-commerce platform, a personal blog, or a custom-built website, we have the tools and expertise to bring your vision to life as the best web development agency.</p>
@@ -11,5 +14,6 @@ export default function Hero(){
             </div>
             <img src="homeimage.svg" className="h-full hidden xl:block"/>
         </div>
+        </Wrapper>
     )
 }

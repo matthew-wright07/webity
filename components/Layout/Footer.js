@@ -1,6 +1,8 @@
+import Wrapper from "../Other/Wrapper"
+
 export default function Footer(){
     return (
-        <div className="px-8 lg:px-32 py-12">
+        <Wrapper>
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
                 <div className="flex flex-col gap-4 lg:justify-self-start">
                     <a href="/" className="flex items-center gap-2">
@@ -40,6 +42,6 @@ export default function Footer(){
                     </ul>
                 </div>
             </div>
-        </div>
+        </Wrapper>
     )
 }

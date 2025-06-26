@@ -1,8 +1,8 @@
+"use client"
+
 import { useState } from "react"
-import { usePathname } from "next/navigation"
 
 export default function Modal(){
-    const pathname = usePathname()
     const [open,setOpen] = useState(false)
     function handleClick(){
         setOpen(!open)
