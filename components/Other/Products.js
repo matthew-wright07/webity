@@ -1,4 +1,4 @@
-import Wrapper from "./Wrapper";
+import Wrapper from "../Wrappers/Wrapper";
 
 export default function Products({title}){
     return(

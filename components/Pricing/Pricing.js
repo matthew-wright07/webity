@@ -1,4 +1,4 @@
-import Wrapper from "../Other/Wrapper"
+import Wrapper from "../Wrappers/Wrapper"
 import PricingCard from "./PricingCard"
 
 export default function Pricing({title,pricings}){

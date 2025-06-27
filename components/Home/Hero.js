@@ -1,4 +1,4 @@
-import Wrapper from "../Other/Wrapper";
+import Wrapper from "../Wrappers/Wrapper";
 
 export default function Hero(){
     return(

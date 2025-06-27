@@ -1,5 +1,5 @@
 import Question from "./Question"
-import Wrapper from "./Wrapper"
+import Wrapper from "../Wrappers/Wrapper"
 
 export default function Questions({questions,title}){
     return (

@@ -1,5 +1,5 @@
 import Review from "./Review"
-import Wrapper from "./Wrapper"
+import Wrapper from "../Wrappers/Wrapper"
 
 export default function Reviews({reviews,more}){
     return(

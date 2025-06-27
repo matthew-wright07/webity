@@ -1,6 +1,6 @@
-import Wrapper from "../Other/Wrapper"
 import HeaderLinks from "./HeaderLinks"
 import Modal from "./Modal"
+import Wrapper from "../Wrappers/Wrapper"
 
 export default function Header(){
     return(
