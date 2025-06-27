@@ -1,4 +1,4 @@
-import Start from "@/components/Other/Start";
+import Start from "@/components/Home/Start";
 import Pricing from "@/components/Pricing/Pricing";
 import Questions from "@/components/Other/Questions";
 
@@ -65,7 +65,6 @@ export default function HostingDomainPage() {
                     }
                 ]}
             />
-            <Start />
         </>
     );
 }

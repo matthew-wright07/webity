@@ -5,7 +5,7 @@ export default function About() {
         <Wrapper>
         <div className="flex flex-col gap-4">
             <h1 className="text-xl font-bold">About Us</h1>
-            <div className="border border-white rounded-lg p-4 flex flex-col gap-4">
+            <div className="flex flex-col gap-4">
                 <p>
                     Welcome to Webity, where creativity meets technology to transform your digital dreams into reality. We’re not just another web services agency—we’re a dedicated team of innovators, problem-solvers, and passionate creators committed to empowering businesses in the ever-evolving online world.
                 </p>
