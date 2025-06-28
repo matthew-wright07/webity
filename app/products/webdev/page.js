@@ -16,7 +16,6 @@ export default function WebDevelopmentPage() {
                             "Responsive Design",
                             "Basic SEO Setup",
                             "Contact Form Integration",
-                            "1 Month Support"
                         ],
                         type: "standard"
                     },
@@ -28,7 +27,6 @@ export default function WebDevelopmentPage() {
                             "Responsive & Custom Design",
                             "Advanced SEO Optimization",
                             "CMS Integration",
-                            "3 Months Support"
                         ],
                         type: "popular"
                     },
@@ -40,7 +38,6 @@ export default function WebDevelopmentPage() {
                             "Fully Responsive Design",
                             "E-commerce or Advanced Features",
                             "SEO & Analytics Setup",
-                            "6 Months Support"
                         ],
                         type: "standard"
                     }
